@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+}
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
+}
+.vr-centre {
+  align-items: center;
+}
+.hr-centre {
+  justify-content: center;
+}
+.sedan-button {
+  color: hsl(31, 77%, 52%);
+}
+.suv-button {
+  color: hsl(184, 100%, 22%);
+}
+.luxury-button {
+  color: hsl(179, 100%, 13%);
+}

@@ -1,0 +1,44 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  height: 100vh;
+}
+.cards {
+  max-width: 800px;
+  margin: 150px auto;
+}
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0 0 5px;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 5px 5px 0;
+}
+.sedans,
+.suvs,
+.luxury {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+p {
+  margin-top: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+button {
+  margin-top: 60px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  font-family: "Lexend Deca", sans-serif;
+}
