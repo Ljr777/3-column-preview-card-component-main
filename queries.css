@@ -1,0 +1,26 @@
+/* BELOW 1100px */
+@media (max-width: 68.75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .cards {
+    /* min height because when it goes
+    lower than this the buttons will overflow the car */
+    min-height: 30rem;
+  }
+}
+
+/* BELOW 880px */
+@media (max-width: 55em) {
+  html {
+    font-size: 50%;
+  }
+}
+/* BELOW 786px */
+@media (max-width: 49.13em) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+  }
+}
