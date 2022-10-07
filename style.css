@@ -50,11 +50,24 @@ p {
   font-family: "Lexend Deca", sans-serif;
   background-color: hsl(0, 0%, 95%);
   border: solid 1px rgba(0, 0, 0, 0);
+  transition: all 0.3s;
 }
 .button:hover,
 .button:active {
-  background-color: ;
-  border: solid 1px rgba(0, 0, 0, 0);
+  /* border: 3px solid #fff; */
+  box-shadow: inset 0 0 0 1.5px #fff;
   color: hsl(0, 0%, 95%);
   cursor: pointer;
+}
+.sedan-button:hover,
+.sedan-button:active {
+  background-color: hsl(31, 77%, 52%);
+}
+.suv-button:hover,
+.suv-button:active {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury-button:hover,
+.luxury-button:active {
+  background-color: hsl(179, 100%, 13%);
 }
